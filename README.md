@@ -3,7 +3,7 @@
 Pixel Craft Studio is a web-based pixel art drawing application that allows users to create pixel-based designs using a CSS grid. It provides an interactive and user-friendly interface to draw, erase, and customize pixel art effortlessly.
 
  Try Now: [PixelCraft Studio](https://dreadlord-sedai.github.io/PixelCraft-Studio/)
- <a href="https://github.com/yourusername/PixelCraftStudio" target="_blank" rel="noopener noreferrer">Visit the GitHub Repository</a>
+ <a href="https://dreadlord-sedai.github.io/PixelCraft-Studio/" target="_blank" rel="noopener noreferrer">Visit the GitHub Repository</a>
 
 
 ---
