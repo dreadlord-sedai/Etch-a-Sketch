@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft Studio</title>
+    <!-- Link our stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main app container -->
+    <div class="app-container">
+        <!-- Header section with title and description -->
+        <header class="header">
+            <h1>PixelCraft Studio</h1>
+            <p class="subtitle">Create stunning pixel art with ease</p>
+        </header>
+
+        <!-- Main controls section -->
+        <div class="controls-section">
+            <!-- Grid size control with slider -->
+            <div class="control-card">
+                <div class="slider-container">
+                    <label for="gridSize">Canvas Resolution</label>
+                    <span id="sizeValue" class="size-value">16 x 16</span>
+                    <div class="slider-info">
+                        <span>16px</span>
+                        <span>60px</span>
+                    </div>
+                    <input type="range" 
+                           id="gridSize" 
+                           min="16" 
+                           max="60" 
+                           value="60" 
+                           class="slider">
+                </div>
+            </div>
+
+            <!-- Drawing mode controls -->
+            <div class="control-card">
+                <h3>Drawing Mode</h3>
+                <div class="mode-buttons">
+                    <button onclick="setDrawingMode('default')" class="btn-mode active" data-mode="default">
+                        <span class="btn-text">Default</span>
+                    </button>
+                    <button onclick="setDrawingMode('random')" class="btn-mode" data-mode="random">
+                        <span class="btn-text">Random</span>
+                    </button>
+                    <button onclick="setDrawingMode('shade')" class="btn-mode" data-mode="shade">
+                        <span class="btn-text">Shade</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="control-card">
+                <h3>Actions</h3>
+                <div class="action-buttons">
+                    <button onclick="clearGrid()" class="btn-action">
+                        <span class="btn-text">Clear Canvas</span>
+                    </button>
+                    <button onclick="downloadCanvas()" class="btn-action">
+                        <span class="btn-text">Save Image</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Canvas container -->
+        <div class="canvas-container">
+            <div class="container" id="container"></div>
+        </div>
+    </div>
+
+    <!-- Link our JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
