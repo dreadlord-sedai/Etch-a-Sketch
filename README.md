@@ -2,32 +2,34 @@
 
 Pixel Craft Studio is a web-based pixel art drawing application that allows users to create pixel-based designs using a CSS grid. It provides an interactive and user-friendly interface to draw, erase, and customize pixel art effortlessly.
 
+![image](https://github.com/user-attachments/assets/d4343446-9bd0-408e-91c3-958afab1079b)
+
+
 ## Features
 - **Intuitive Drawing Grid:** Click on grid cells to color pixels and create art.
-- **Color Picker:** Choose from a variety of colors to paint your pixels.
-- **Eraser Tool:** Remove colors from selected pixels.
+- **Colors:** Choose from a variety of colors to paint your pixels.
 - **Grid Customization:** Adjust the grid size to create different resolutions of pixel art.
 - **Clear Canvas:** Reset the grid to start a new design.
 - **Save Artwork:** Option to save your pixel art as an image.
 
 ## Technologies Used
 - HTML
-- CSS (CSS Grid for layout)
+- CSS
 - JavaScript
+- Bootstrap
 
 ## How to Use
 1. Open the Pixel Craft Studio web application.
 2. Select a color from the color picker.
 3. Click on the grid to paint pixels.
-4. Use the eraser tool to remove colors.
-5. Adjust grid size for different pixel densities.
-6. Click the clear button to reset the grid.
-7. Save your artwork if needed.
+4. Adjust grid size for different pixel densities.
+5. Click the clear button to reset the grid.
+6. Save your artwork if needed.
 
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/PixelCraftStudio.git
+   git git@github.com:dreadlord-sedai/PixelCraft-Studio.git
    ```
 2. Navigate to the project directory:
    ```sh
