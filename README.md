@@ -47,7 +47,7 @@ Pixel Craft Studio is a web-based pixel art drawing application that allows user
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git git@github.com:dreadlord-sedai/PixelCraft-Studio.git
+   git clone git@github.com:dreadlord-sedai/PixelCraft-Studio.git
    ```
 2. Navigate to the project directory:
    ```sh
