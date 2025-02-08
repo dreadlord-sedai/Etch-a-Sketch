@@ -4,6 +4,8 @@ Pixel Craft Studio is a web-based pixel art drawing application that allows user
 
 ## Try Now: [PixelCraft Studio](https://dreadlord-sedai.github.io/PixelCraft-Studio/)
 
+---
+
 &nbsp;
 
 &nbsp;
