@@ -79,7 +79,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 For any questions or feedback, feel free to reach out:
 
 - **Dahami Fabio**: [dahamifabbio@gmail.com](mailto:dahamifabbio@gmail.com)
-- **GitHub**: [[dreadlord_sedai]](https://github.com/[dreadlord_sedai])
+- **GitHub**: [dreadlord_sedai](https://github.com/[dreadlord_sedai])
 
 ---
 
